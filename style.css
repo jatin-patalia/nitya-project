@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cd9a81;
+    color: #00539C;
+}
+
+.main {
+    max-width: 100%;
+}
+
+.img {
+    margin-top: 2vh;
+    height: 250px;
+    width: 300px;
+}
+
+.img img {
+    height: 220px;
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.game-name {
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img-part1, .img-part2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.game-name{
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    margin-top: 20px;
+}
